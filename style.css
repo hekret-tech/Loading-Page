@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: limegreen;
+    line-height: 1.8;
+    background-color: black;
+}
+
+.banner{
+    background: url(img/CR-Health-Inlinehero-bananas-good-for-you-0418.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.banner h1{
+    font-family: 'Courgette', cursive;
+    font-size: 120px;
+    font-weight: lighter;
+    line-height: 1.2;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.banner p{
+    font-family: 'Monoton', cursive;
+    font-size: 28px;
+    margin-top: -15px;
+    letter-spacing: 3px;
+}
+
+.banner .bplay{
+    text-decoration: none;
+    font-family: 'Courgette', sans-serif;
+    font-size: 25px;
+    color: limegreen;
+    border: mediumspringgreen 2px solid;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.banner .bplay:hover, .banner .bplay:focus{
+    text-decoration: none;
+    font-family: 'Courgette', sans-serif;
+    font-size: 25px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 25px;
+    margin-top: 30px;
+    animation: button 1s ease-in-out infinite;
+}
+
+@keyframes button{
+    50%{
+        transform: scale(1.1);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    80%{
+        transform: scale(1.1);;
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav{
+    line-height: 70px;
+    background: mediumspringgreen;
+    position: sticky;
+    top: 0;
+}
+
+.nav li{
+    width: 100%;
+}
+
+.nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'courgette', sans-serif;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.nav a:hover, .nav a:focus{
+    background: whitesmoke;
+    color: mediumseagreen;
+}
+
+.container{
+    max-width: 900px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: 'Courgette', sans-serif;
+    color:  mediumspringgreen;
+    border: mintcream 4px dotted;
+    text-align: justify;
+}
+.banner h4{
+    margin-top: 50px;
+    font-family: 'Courgette', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.a img{
+    display: block;
+    align-items: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b img{
+    display: block;
+    align-items: center;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fot{
+    height: 50px;
+    background: mediumspringgreen;
+    margin-top: 30px;
+}
+
+.fot p{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width: 550px)
+{
+    .banner h1{
+        font-family: 'Courgette', cursive;
+        font-size: 50px;
+        font-weight: lighter;
+        line-height: 1.2;
+        margin-top: 90px;
+        padding: 20px;
+    }
+
+    .banner h4{
+        margin-top: 25px;
+        font-family: 'Courgette', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
+    .container{
+        max-width: 300px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 17px;
+        font-family: 'Courgette', sans-serif;
+        color:  mediumspringgreen;
+        border: mintcream 4px dotted;
+        text-align: justify;
+    }
+
+    .a img{
+        display: block;
+        align-items: center;
+        width: 400px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .b img{
+        display: block;
+        align-items: center;
+        width: 400px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fot{
+        height: 60px;
+        background: mediumspringgreen;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    
+    .fot p{
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (max-width: 350px)
+{
+    .banner h1{
+        font-family: 'Courgette', cursive;
+        font-size: 25px;
+        font-weight: lighter;
+        line-height: 1.2;
+        margin-top: 90px;
+        padding: 20px;
+    }
+
+    .banner h4{
+        margin-top: 25px;
+        font-family: 'Courgette', sans-serif;
+        font-size: 15px;
+        font-weight: lighter;
+    }
+
+    .container{
+        max-width: 300px;
+        width: 100%;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 17px;
+        font-family: 'Courgette', sans-serif;
+        color:  mediumspringgreen;
+        border: mintcream 4px dotted;
+        text-align: justify;
+    }
+
+    .a img{
+        display: block;
+        align-items: center;
+        width: 400px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .b img{
+        display: block;
+        align-items: center;
+        width: 400px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fot{
+        height: 60px;
+        background: mediumspringgreen;
+        margin-top: 30px;
+        padding: 5px;
+    }
+    
+    .fot p{
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        color: white;
+        font-size: 12px;
+        letter-spacing: 1.5px;
+        font-weight: bolder;
+    }
+}
+
